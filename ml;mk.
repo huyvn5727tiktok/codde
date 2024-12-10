@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký Thành viên CLB Thể thao</title>
+</head>
+<body>
+    <h2>ĐĂNG KÍ THÀNH VIÊN CLB THỂ THAO</h2>
+    <form action="#" method="post" enctype="multipart/form-data">
+        <label for="fullname">Họ tên:</label>
+        <input type="text" id="fullname" name="fullname" required>
+        <br><br>
+
+        <label for="password">Mật khẩu:</label>
+        <input type="password" id="password" name="password" required>
+        <br><br>
+
+        <label for="dob">Ngày sinh:</label>
+        <input type="date" id="dob" name="dob">
+        <br><br>
+
+        <label for="address">Địa chỉ:</label>
+        <textarea id="address" name="address" rows="4" cols="50"></textarea>
+        <br><br>
+
+        <label>Giới tính:</label>
+        <input type="radio" id="male" name="gender" value="Nam">
+        <label for="male">Nam</label>
+        <input type="radio" id="female" name="gender" value="Nữ">
+        <label for="female">Nữ</label>
+        <br><br>
+
+        <label>Sở thích:</label>
+        <input type="checkbox" id="chess" name="hobby" value="Cờ vua">
+        <label for="chess">Cờ vua</label>
+
+        <input type="checkbox" id="games" name="hobby" value="Trò chơi điện tử">
+        <label for="games">Trò chơi điện tử</label>
+
+        <input type="checkbox" id="travel" name="hobby" value="Du lịch">
+        <label for="travel">Du lịch</label>
+
+        <input type="checkbox" id="flowers" name="hobby" value="Cắm hoa">
+        <label for="flowers">Cắm hoa</label>
+
+        <input type="checkbox" id="cooking" name="hobby" value="Nấu ăn">
+        <label for="cooking">Nấu ăn</label>
+        <br><br>
+
+        <label for="file">Hồ sơ đính kèm:</label>
+        <input type="file" id="file" name="file">
+        <br><br>
+
+        <label for="club">Đăng kí CLB:</label>
+        <select id="club" name="club">
+            <option value="Bóng đá">Bóng đá</option>
+            <option value="Bóng rổ">Bóng rổ</option>
+            <option value="Cầu lông">Cầu lông</option>
+        </select>
+        <br><br>
+
+        <button type="submit">Đăng kí</button>
+    </form>
+</body>
+</html>
